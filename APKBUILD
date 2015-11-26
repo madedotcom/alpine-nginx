@@ -59,14 +59,9 @@ build() {
 		--with-ipv6 \
 		--with-file-aio \
 		--with-pcre-jit \
-		--with-http_dav_module \
 		--with-http_ssl_module \
-		--with-http_stub_status_module \
 		--with-http_gzip_static_module \
-		--with-http_spdy_module \
 		--with-http_auth_request_module \
-		--with-mail \
-		--with-mail_ssl_module \
 		--add-module="$srcdir/nginx-module-vts-0.1.6" \
 		|| return 1
 	make || return 1
