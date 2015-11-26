@@ -15,7 +15,6 @@ install=""
 # the nginx-initscritps provides openrc script, logrotate and user creation
 depends=""
 makedepends="pcre-dev openssl-dev zlib-dev linux-headers"
-subpackages="$pkgname-doc $pkgname-vim:vim"
 source="http://nginx.org/download/$pkgname-$pkgver.tar.gz
     nginx-module-vts.tar.gz::https://github.com/vozlt/nginx-module-vts/archive/v0.1.6.tar.gz    
 	ipv6.patch
